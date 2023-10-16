@@ -2,7 +2,11 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
+.navbar-brand {
+  color: $primary;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 .btn-light {
   background-color: #fff;
   border-color: #dee2e6;
