@@ -16,3 +16,22 @@
   border-color: #c1c9d0;
   color: $primary;
 }
+.slider {
+  &__nav {
+    max-height: 270px;
+  }
+}
+@media (min-height: 1200px) {
+  .slider {
+    &__nav {
+      max-height: 300px;
+    }
+  }
+}
+@media (min-height: 1400px) {
+  .slider {
+    &__nav {
+      max-height: 350px;
+    }
+  }
+}
