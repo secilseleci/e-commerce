@@ -35,3 +35,32 @@
     }
   }
 }
+
+// cards
+
+.card .img-wrap {
+  height: 240px;
+  display: block;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+}
+.card .img-wrap img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+  object-fit: cover;
+}
+.card .img-wrap .badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.info-wrap {
+  padding: 1rem;
+}
+.card .title {
+  display: block;
+  text-decoration: none;
+  color: #51585e;
+}
